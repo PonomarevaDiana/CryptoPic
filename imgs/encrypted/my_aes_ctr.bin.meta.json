@@ -1,0 +1,13 @@
+{
+  "algorithm": "AES-CTR",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "mode": "RGB",
+  "key_size": 16,
+  "original_filename": "my.jpg",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c",
+  "requires_padding": false,
+  "nonce": "403e21c11aaa94e9"
+}

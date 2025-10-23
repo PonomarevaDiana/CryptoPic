@@ -1,0 +1,13 @@
+{
+  "algorithm": "AES-CFB",
+  "original_size": [
+    512,
+    512
+  ],
+  "mode": "RGB",
+  "key_size": 16,
+  "original_filename": "gradient.png",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c",
+  "requires_padding": false,
+  "iv": "71e2cf321a8184472e0639226e423a89"
+}

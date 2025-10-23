@@ -1,0 +1,118 @@
+{
+  "image_name": "my_ctr",
+  "original_path": "imgs/input/my.jpg",
+  "encrypted_path": "imgs/encrypted/my_aes_ctr.bin",
+  "image_size": [
+    3840,
+    2160
+  ],
+  "image_mode": "RGB",
+  "algorithm": "aes-ctr",
+  "entropy": {
+    "original": 7.157233124759093,
+    "encrypted": 7.999992517637434,
+    "improvement": 0.8427593928783415
+  },
+  "channel_entropy": {
+    "original": {
+      "R": 6.796873700235415,
+      "G": 7.031546557328461,
+      "B": 7.197777546706876
+    },
+    "encrypted": {
+      "R": 7.999974111631991,
+      "G": 7.999975691878522,
+      "B": 7.999974259380845
+    }
+  },
+  "npcr_uaci": {
+    "npcr": 99.60898115997942,
+    "uaci": 36.94728915453784
+  },
+  "avalanche_effect": 49.99822219409079,
+  "correlations": {
+    "horizontal": {
+      "original": 0.9923821595219668,
+      "encrypted": -0.0003791607930912618,
+      "reduction": 0.9927613203150581
+    },
+    "vertical": {
+      "original": 0.9950021215417224,
+      "encrypted": 3.3314854421035e-05,
+      "reduction": 0.9949688066873014
+    },
+    "diagonal": {
+      "original": 0.9906978555650714,
+      "encrypted": 3.8320020571807034e-05,
+      "reduction": 0.9906595355444996
+    }
+  },
+  "byte_distribution": {
+    "original": {
+      "unique_bytes": 256,
+      "total_bytes": 24883200,
+      "avg_deviation": 91475.2890625,
+      "max_deviation": 521858.0,
+      "uniformity_score": 5.889620306069954
+    },
+    "encrypted": {
+      "unique_bytes": 256,
+      "total_bytes": 24883200,
+      "avg_deviation": 246.4921875,
+      "max_deviation": 837.0,
+      "uniformity_score": 99.74640721450618
+    }
+  },
+  "file_sizes": {
+    "original_bytes": 24883200,
+    "encrypted_bytes": 24883200,
+    "decrypted_bytes": 24883200
+  },
+  "key_sensitivity": {
+    "test_type": "key_sensitivity",
+    "original_image": "imgs/input/my.jpg",
+    "algorithm": "aes-ctr",
+    "keys": {
+      "key1": "test_key_123",
+      "key2": "test_key_124",
+      "key_difference": "Изменен 1 символ"
+    },
+    "sensitivity_metrics": {
+      "npcr": 99.60982510288065,
+      "uaci": 33.46091088152082,
+      "avalanche_effect": 49.997506349665635,
+      "entropy_key1": 7.999992476950832,
+      "entropy_key2": 7.9999924582368855,
+      "entropy_difference": 1.871394683661265e-08
+    },
+    "distributions": {
+      "key1": {
+        "unique_bytes": 256,
+        "total_bytes": 24883200,
+        "avg_deviation": 253.890625,
+        "max_deviation": 831.0,
+        "uniformity_score": 99.73879565329217
+      },
+      "key2": {
+        "unique_bytes": 256,
+        "total_bytes": 24883200,
+        "avg_deviation": 258.3828125,
+        "max_deviation": 837.0,
+        "uniformity_score": 99.73417406121399
+      }
+    },
+    "file_sizes": {
+      "encrypted_key1": 24883200,
+      "encrypted_key2": 24883200
+    }
+  },
+  "iv_nonce_sensitivity": {
+    "test_type": "iv_nonce_sensitivity",
+    "algorithm": "aes-ctr",
+    "sensitivity_metrics": {
+      "npcr": 99.61031941229423,
+      "uaci": 33.46640711679476,
+      "avalanche_effect": 49.999644338348766
+    }
+  }
+}

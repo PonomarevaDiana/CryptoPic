@@ -1,0 +1,11 @@
+{
+  "algorithm": "stream-rc4-custom",
+  "original_size": [
+    512,
+    512
+  ],
+  "mode": "RGB",
+  "iv": "4a54c7fc988cd9433e2a25491981d240",
+  "original_filename": "gradient.png",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c"
+}

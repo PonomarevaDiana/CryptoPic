@@ -1,0 +1,13 @@
+{
+  "algorithm": "AES-CBC",
+  "original_size": [
+    3840,
+    2160
+  ],
+  "mode": "RGB",
+  "key_size": 16,
+  "original_filename": "my.jpg",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c",
+  "requires_padding": true,
+  "iv": "7b24046124daa66ebe4db9746aca19ee"
+}

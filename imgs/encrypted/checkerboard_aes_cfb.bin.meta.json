@@ -1,0 +1,13 @@
+{
+  "algorithm": "AES-CFB",
+  "original_size": [
+    512,
+    512
+  ],
+  "mode": "RGB",
+  "key_size": 16,
+  "original_filename": "checkerboard.png",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c",
+  "requires_padding": false,
+  "iv": "9d1b4923b515379f780fe12b5c2f72aa"
+}

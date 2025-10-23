@@ -1,0 +1,11 @@
+{
+  "algorithm": "stream-rc4-custom",
+  "original_size": [
+    512,
+    512
+  ],
+  "mode": "RGB",
+  "iv": "ded27515a124a277fe63bc497f121f17",
+  "original_filename": "checkerboard.png",
+  "key_hash": "a729d03f8753b3be500d5246c28b379c"
+}

@@ -1,0 +1,110 @@
+{
+  "image_name": "my_ecb",
+  "original_path": "imgs/input/my.jpg",
+  "encrypted_path": "imgs/encrypted/my_aes_ecb.bin",
+  "image_size": [
+    3840,
+    2160
+  ],
+  "image_mode": "RGB",
+  "algorithm": "aes-ecb",
+  "entropy": {
+    "original": 7.157233124759093,
+    "encrypted": 7.998599348848373,
+    "improvement": 0.8413662240892803
+  },
+  "channel_entropy": {
+    "original": {
+      "R": 6.796873700235415,
+      "G": 7.031546557328461,
+      "B": 7.197777546706876
+    },
+    "encrypted": {
+      "R": 7.995837810749799,
+      "G": 7.9953682911128805,
+      "B": 7.99640205848085
+    }
+  },
+  "npcr_uaci": {
+    "npcr": 99.5787438914609,
+    "uaci": 36.981101841135114
+  },
+  "avalanche_effect": 49.976155598958336,
+  "correlations": {
+    "horizontal": {
+      "original": 0.9923821595219668,
+      "encrypted": -0.003086169221853665,
+      "reduction": 0.9954683287438205
+    },
+    "vertical": {
+      "original": 0.9950021215417224,
+      "encrypted": 0.3139715233029759,
+      "reduction": 0.6810305982387466
+    },
+    "diagonal": {
+      "original": 0.9906978555650714,
+      "encrypted": -0.0021474212151452684,
+      "reduction": 0.9928452767802166
+    }
+  },
+  "byte_distribution": {
+    "original": {
+      "unique_bytes": 256,
+      "total_bytes": 24883200,
+      "avg_deviation": 91475.2890625,
+      "max_deviation": 521858.0,
+      "uniformity_score": 5.889620306069954
+    },
+    "encrypted": {
+      "unique_bytes": 256,
+      "total_bytes": 24883216,
+      "avg_deviation": 3373.072265625,
+      "max_deviation": 16069.9375,
+      "uniformity_score": 96.52976327497217
+    }
+  },
+  "file_sizes": {
+    "original_bytes": 24883200,
+    "encrypted_bytes": 24883216,
+    "decrypted_bytes": 24883200
+  },
+  "key_sensitivity": {
+    "test_type": "key_sensitivity",
+    "original_image": "imgs/input/my.jpg",
+    "algorithm": "aes-ecb",
+    "keys": {
+      "key1": "test_key_123",
+      "key2": "test_key_124",
+      "key_difference": "Изменен 1 символ"
+    },
+    "sensitivity_metrics": {
+      "npcr": 99.61089434741875,
+      "uaci": 33.46536804441305,
+      "avalanche_effect": 50.00093587179406,
+      "entropy_key1": 7.9985755313545965,
+      "entropy_key2": 7.998602867421897,
+      "entropy_difference": 2.733606730043192e-05
+    },
+    "distributions": {
+      "key1": {
+        "unique_bytes": 256,
+        "total_bytes": 24883216,
+        "avg_deviation": 3513.3642578125,
+        "max_deviation": 12756.9375,
+        "uniformity_score": 96.38543004248325
+      },
+      "key2": {
+        "unique_bytes": 256,
+        "total_bytes": 24883216,
+        "avg_deviation": 3482.4345703125,
+        "max_deviation": 10978.9375,
+        "uniformity_score": 96.41725068817472
+      }
+    },
+    "file_sizes": {
+      "encrypted_key1": 24883216,
+      "encrypted_key2": 24883216
+    }
+  },
+  "iv_nonce_sensitivity": {}
+}
