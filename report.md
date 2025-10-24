@@ -227,20 +227,20 @@ AE = [∑ popcount(B1_i ⊕ B2_i)] / (N × 8) × 100%
 #### Анализ по методам
 
 ###### STREAM
-
-![[cache/encryption_method_ecb.png]]##### AES-ECB
-![[cache/encryption_method_ecb.png]]
+![](_cache/encryption_method_stream.png)
+##### AES-ECB
+![](_cache/encryption_method_ecb.png)
 ##### AES-CBC
-![[cache/encryption_method_cbc.png]]
+![](_cache/encryption_method_cbc.png)
 ##### AES-CFB
-![[cache/encryption_method_cfb.png]]
+![](_cache/encryption_method_cfb.png)
 ##### AES-CTR
-![[cache/encryption_method_ctr.png]]
+![](_cache/encryption_method_ctr.png)
 #### Общие сравнительные таблицы
 
 #### Энтропия
 
-![[cache/entropy_comparison1.png]]
+![](_cache/entropy_comparison1.png)
 #### Выводы: 
 
 - Все значения ≈ 7.999-8.000
@@ -249,7 +249,7 @@ AE = [∑ popcount(B1_i ⊕ B2_i)] / (N × 8) × 100%
 
 ##### Метрики безопасности
 
-![[cache/security_metrics_comparison1.png]]
+![](_cache/security_metrics_comparison1.png)
 #### Выводы: 
 ##### 1. NPCR 
 
@@ -281,7 +281,7 @@ AE = [∑ popcount(B1_i ⊕ B2_i)] / (N × 8) × 100%
 
 ##### Корреляция
 
-![[cache/correlation_comparison1.png]]
+![](_cache/correlation_comparison1.png)
 #### Выводы:
 
 1. Горизонтальная корреляция до шифрования: checkerboard: 0.941, gradient: 0.99996 (почти идеальная линейная зависимость), my: 0.992 (очень высокая), Noise texture: 0.966 (высокая, но меньше чем у градиента)
@@ -294,7 +294,7 @@ AE = [∑ popcount(B1_i ⊕ B2_i)] / (N × 8) × 100%
 
 ##### Размеры файлов
 
-![[cache/file_size_comparison.png]]
+![](_cache/file_size_comparison.png)
 #### Выводы:
 
 - ECB и CBC наблюдаются незначительное увеличение (+16 байт) из-за выравнивания
@@ -303,10 +303,10 @@ AE = [∑ popcount(B1_i ⊕ B2_i)] / (N × 8) × 100%
 #### Графики
 
 ##### Сравнительные сводные гистограммы 
-![[cache/comparative_analysis.png]]
-![[cache/correlation_comparison.png]]
+![](_cache/comparative_analysis.png)
+![](_cache/correlation_comparison.png)
 
-![[cache/entropy_comparison.png]]
-![[cache/security_metrics_comparison.png]]
+![](_cache/entropy_comparison.png)
+![](_cache/security_metrics_comparison.png)
 ##### Графики для отдельных методов 
-![[cache/gradient_cbc_dashboard.png]]
+![](_cache/gradient_cbc_dashboard.png)
